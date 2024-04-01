@@ -13,7 +13,7 @@ try:
     print("Pinged your deployment. Successfully connected to MongoDB!")
 except Exception as e:
     print(e)
-
+ 
 db = client.farm_app
 user_collectoin = db['users']
 
