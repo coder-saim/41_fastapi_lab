@@ -2,7 +2,7 @@ import HomePage from "./components/HomePage";
 import Register from "./components/Register";
 import TaskManager from "./components/TaskManager";
 import TextBox from "./components/TextBox";
-import { Routes, Route, Navigate } from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
 
 function App() {
   return (
